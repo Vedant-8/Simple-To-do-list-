@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to right, rgb(51, 0, 128), rgb(41, 0, 128));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+
+.heading{
+    font-family: sans-serif;
+    color: beige;
+}
+
+.date{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: beige;
+}
+
+.addButton{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.addText{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.list{
+    color: beige;
+    font-family: sans-serif;
+    font-size: 25px;
+    list-style: none;
+}
+
+.clearButton{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
